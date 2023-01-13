@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div id="nav">
+        <div class="image">
+            <img class="logo" src="./Dark Purple And Gold Modern Boutique Logo.png" alt="">
+        </div>
+
+        <div class="lists">
+            <a href="./index.html">
+                <div>Home</div>
+            </a>
+            <a href="./about.html">
+                <div>About</div>
+            </a>
+            <a href="./signUp.html">
+                <div>Sign Up</div>
+            </a>
+            <a href="./login.html">
+                <div>Login</div>
+            </a>
+        </div>
+    </div>
+
+    <div id="middle">
+        <h1>Sign Up</h1>
+        <form id="form">
+            <label for="">Username</label>
+            <br>
+            <input type="text" id="Username" required placeholder="Enter Username">
+            <br>
+            <label for="">Email Id</label>
+            <br>
+            <input type="email" id="EmailId" required placeholder="Enter email">
+            <br>
+            <label for="">Date of Birth</label>
+            <br>
+            <input type="date" id="DateOfBirth" required>
+            <br>
+            <label for="role">Role</label>
+            <br>
+            <select id="Role" required>
+                <option value="">Select</option>
+                <option value="Admin">Admin</option>
+                <option value="Explorer">Explorer</option>
+            </select>
+            <br>
+            <label for="">Location</label>
+            <br>
+            <input type="text" id="Location" required placeholder="Enter Location">
+            <br>
+            <label for="">Password</label>
+            <br>
+            <input type="password" id="Password" required placeholder="Enter Password">
+            <br>
+            <label for="">Confirm Password</label>
+            <br>
+            <input type="password" id="ConfirmPassword" required placeholder="Confirm Password">
+            <br>
+            <input type="submit" required>
+            <br>
+        </form>
+    </div>
+</body>
+
+</html>
+<script src="./signUp.js"></script>
+<link rel="stylesheet" href="./signUp.css">

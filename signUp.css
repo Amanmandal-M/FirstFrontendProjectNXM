@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(149, 206, 168, 0.791);
+}
+
+.image{
+    margin-top: 3px;
+    width: 5%;
+    height: 88%;
+    /* border-radius: 60px; */
+}
+
+.image:hover{
+    cursor: pointer;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+
+
+.lists{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 8px;
+}
+
+.lists>a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder; 
+}
+
+
+.lists>a:hover{
+    border-bottom: 5px solid purple;
+}
+
+#middle{
+    border: 2px solid rgb(186, 177, 177);
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    background:  linear-gradient(to left, rgb(240, 178, 86), rgb(223, 251, 163));
+}
+
+h1{
+    text-align: center;
+    border-bottom: 2px solid rgb(186, 177, 177);
+    opacity: 0.7;
+}
+
+form{
+    margin-top: 10px;  
+}
+
+input {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    padding: 8px 10px;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:cursive;
+    font-weight: 500;
+    color: rgb(81, 144, 108);
+}
+
+select,input[type="submit"]{
+    width: 74%;
+    height: 100%;
+    margin: auto;
+    padding: 8px 10px ;
+    margin-top: 15px;
+    display: block;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+
+label{
+    margin-left: 86px;
+    font-size: 20px;
+    
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: rgb(96, 207, 96);
+    border: none;
+    color:black;
+    font-size: 22px;
+}
+
+select:hover,select>option
+:hover{
+    cursor: pointer;
+}
+
+#localsName{
+    color: rgb(240, 8, 8);
+    font-weight: bolder;
+}
+
+#localName{
+    margin-left: 10px;
+    border: none;
+    font-size: 16px;
+    font-family: none;
+    background-color: rgb(186, 204, 20);
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
